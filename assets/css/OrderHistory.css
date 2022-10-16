@@ -1,0 +1,78 @@
+.navbar-custom {
+    background-color: #2C1DD670;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-item.active {
+    background-color: aliceblue;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.nav-item :hover {
+    background-color: beige;
+    border-color: #07023e8c;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.yourlist {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.past-order {
+    position: relative;
+    height: 150px;
+    width: 70%;
+    margin: 5%;
+    
+    border-radius: 10px;
+    border-color: #fff;
+    background-color: #fff;
+}
+.Order-hist{
+    margin:2%;
+}
+img {
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px;
+    float: left;
+}
+
+.time-date {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.odetails {
+    position: absolute;
+    font-size: 18px;
+    
+    color: rgb(26, 27, 36);
+    left: 150px;
+}
+
+.cost {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.date{
+    text-align: center;
+    font-size: 16px;
+}

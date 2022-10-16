@@ -1,0 +1,68 @@
+/* .imglogo{
+     size: 1vw;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+     max-width: 100%;
+     
+} */
+
+.social {
+    color: black;
+    text-align: center;
+    size: 5vw;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-top: 16px;
+
+
+}
+
+.foot .social a {
+
+    font-size: 24px;
+    color: black;
+    margin: 0 8px;
+    width: 40px;
+
+}
+
+/* .bloog{
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+
+    margin-top: 32px;
+    font-weight: bold;
+    margin-left: 342px;
+    cursor:pointer;
+   
+}
+.helpdesk{
+  
+    display: inline-block;
+    position: absolute;
+    margin-left: 1062px;
+    margin-top: -63px;
+    font-weight: bold;
+    cursor:pointer;
+
+} */
+
+
+.ull {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+
+}
+
+.ull .lii {
+
+    margin-top: 50px;
+    font-size: large;
+    font-weight: bolder;
+}
