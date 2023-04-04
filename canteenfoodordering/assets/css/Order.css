@@ -1,0 +1,103 @@
+.btn1 {
+    width: auto;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #04053638;
+    font-size: 16px;
+    background-color: hsl(177, 91%, 14%);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btn1:hover {
+    background-color: aliceblue;
+    color: #000;
+}
+
+
+.order {
+    font-size: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    min-height: 200px;
+    width: 70%;
+    margin: 3% auto 3% auto;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.order.new {
+    background-color: rgb(68, 194, 233);
+    border-color: rgb(14, 20, 57);
+}
+
+.order.complete {
+    background-color: rgb(83, 231, 142);
+    border-color: rgb(15, 65, 25);
+}
+
+.order.prepare {
+    background-color: rgb(231, 191, 105);
+    border-color: rgb(109, 87, 20);
+}
+
+.order.reject {
+    background-color: rgb(233, 68, 68);
+    border-color: rgb(57, 17, 17);
+}
+
+.time-date {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.Order-hist {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.odetails {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(26, 27, 36);
+    left: 150px;
+    top: 60px;
+}
+
+.cost {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    width: auto;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #04053638;
+    background-color: #5D5FEF38;
+    color: #000;
+}
+
+.btn1.accept, .btn1.complete{
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+}
+
+.btn1.reject,
+.btn1.cancel {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
